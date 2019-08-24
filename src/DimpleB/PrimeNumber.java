@@ -2,7 +2,7 @@ package DimpleB;
 
 public class PrimeNumber {
 	static void primecheck(int start, int end) {
-		int flag1 = 1, sum = 0, count = 0;
+		int sum = 0,count = 0;
 		for (int number = start; number <= end; number++) {
 			int ct = 0;
 			for (int i = 2; i <= number / 2; i++) {
@@ -16,6 +16,7 @@ public class PrimeNumber {
 				count++;
 				sum = sum + number;
 				System.out.println(number + " is prime.");
+				System.out.println("count is:"+count);
 
 			}
 
