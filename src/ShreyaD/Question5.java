@@ -9,7 +9,7 @@ public class Question5 {
 	}
     public static void main(String[] args) {
 		Question5 question = new Question5();
-		question.display(2,80);
+		question.display(10,20);
 		
 	}
 
