@@ -2,8 +2,8 @@ package VarshaT;
 
 public class Ques5 {
 	void print(int start, int end) {
-		for (int i = start; i <= end; i++) {
-			System.out.println(i);
+		for (int j = start; j <= end; j++) {
+			System.out.println(j);
 		}
 	}
 
