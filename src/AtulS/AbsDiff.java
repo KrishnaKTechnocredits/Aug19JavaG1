@@ -1,3 +1,5 @@
+package AtulS;
+
 //print the absolute difference between two numbers i.e. |N−M|
 class AbsDiff
 {

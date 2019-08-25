@@ -1,4 +1,5 @@
-//program to print the sum of all the elements of an array of size N
+package AtulS;
+
 class SumofArrayElements
 {
 	int arraysum(int[] arr)

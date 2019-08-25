@@ -1,3 +1,5 @@
+package AtulS;
+
 //program to add the corresponding elements of two arrays, each of size N
 class AddArrayEle
 {

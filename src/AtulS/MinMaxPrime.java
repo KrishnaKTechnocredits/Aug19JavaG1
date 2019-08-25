@@ -1,6 +1,8 @@
+package AtulS;
+
+
 //program to identify near minimum and maximum prime number of a given number
 //e.g. For number 10 near min prime# is 7 and max prime# is 11
-package loopExamples;
 
 public class MinMaxPrime {
 
