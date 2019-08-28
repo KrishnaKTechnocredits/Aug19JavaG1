@@ -1,4 +1,4 @@
-package loopExamples;
+package DimpleB;
 
 public class ArrayProblem9 {
 	void printalldifferedindex(int input1[],int input2[])
