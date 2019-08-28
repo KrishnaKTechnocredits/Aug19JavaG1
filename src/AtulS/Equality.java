@@ -1,3 +1,4 @@
+//java program to check the equality of two arrays?
 package AtulS;
 
 public class Equality {
