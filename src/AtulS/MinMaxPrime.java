@@ -6,23 +6,22 @@ package AtulS;
 public class MinMaxPrime {
 
 	static void primeminmax(int num) {
-		int a = 2;
 		int cnt = 0;
 		int k = 0;
-//		for (int j = num - 1; j >= 2; j--) {
-//			cnt = 0;
-//			for (int i = 2; i <= j / 2; i++) {
-//				if (j % i == 0) {
-//					cnt = 1;
-//					break;
-//				}
-//			}
-//
-//			if (cnt == 0) {
-//				System.out.println("Min Number " + j + " is prime");
-//				break;
-//			}
-//		}
+	for (int j = num - 1; j >= 2; j--) {
+			cnt = 0;
+			for (int i = 2; i <= j / 2; i++) {
+				if (j % i == 0) {
+					cnt = 1;
+					break;
+				}
+			}
+
+			if (cnt == 0) {
+				System.out.println("Min Number " + j + " is prime");
+				break;
+			}
+		}
 
 		for (k = num + 1; ; k++) {
 			cnt=0;
