@@ -1,7 +1,7 @@
-//Find first differ index from given arrays
+//Find all differ index from given arrays
 package AtulS;
 
-public class DifferIndex {
+public class DifferIndex2 {
 
 	void differarrays(int[] arr, int[] arr1)
 	{
@@ -10,17 +10,17 @@ public class DifferIndex {
 				if(arr[i] != arr1[i])
 				{
 					System.out.println("Value are not matching at index: " + i);
-					break;
 				}
 					
 		}
 	}
 	public static void main(String[] args) {
 		int[] arr = {10,2,9,14,3};
-		int[] arr1 = {10,2,18,14,3};
-		DifferIndex differ = new DifferIndex();
+		int[] arr1 = {10,2,18,15,13};
+		DifferIndex2 differ = new DifferIndex2();
 		differ.differarrays(arr, arr1);
 
 	}
 
 }
+
