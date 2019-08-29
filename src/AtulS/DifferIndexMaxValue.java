@@ -18,7 +18,7 @@ public class DifferIndexMaxValue {
 	}
 
 	public static void main(String[] args) {
-		int[] arr = { 10, 2, 9, 14, 31 };
+		int[] arr = { 10, 2, 9, 14, 312 };
 		int[] arr1 = { 10, 2, 18, 245, 132 };
 		DifferIndexMaxValue differ = new DifferIndexMaxValue();
 		differ.differarrays(arr, arr1);
