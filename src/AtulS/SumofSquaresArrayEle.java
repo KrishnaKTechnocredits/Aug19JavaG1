@@ -1,3 +1,6 @@
+package AtulS;
+
+
 //print the sum of squares of the elements of an array of size N
 class SumofSquaresArrayEle
 {

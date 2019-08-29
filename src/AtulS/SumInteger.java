@@ -1,3 +1,6 @@
+package AtulS;
+
+
 //program to print the sum of two integers
 class SumInteger
 {
