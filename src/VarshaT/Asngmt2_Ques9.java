@@ -11,6 +11,8 @@ public class Asngmt2_Ques9 {
 			{
 				System.out.println("values are not matchimg at:"+i);
 			}
+			
+			
 		}
 		}
 		else
@@ -18,8 +20,8 @@ public class Asngmt2_Ques9 {
 		
 	}
 	public static void main(String[] args) {
-		int a[]={10,2,9,14,3};
-		int b[]={10,2,18,14,13};
+		int a[]={10,2,9,14,13};
+		int b[]={10,2,18,14,3};
 		Asngmt2_Ques9 asngmt2_Ques9= new Asngmt2_Ques9();
 		asngmt2_Ques9.Sum_Finder(a,b);
 	}
