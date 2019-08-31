@@ -24,7 +24,6 @@ public class SecondLargest {
 		int[] arr = {16,2,3,4};
 		SecondLargest sc = new SecondLargest();
 		sc.secondlargestnum(arr);
-		
 	}
 
 }
