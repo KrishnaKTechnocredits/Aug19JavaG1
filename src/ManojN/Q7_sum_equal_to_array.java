@@ -10,7 +10,7 @@ Given sum:7
 Integer numbers, whose sum is equal to value:7 
 (2, 5) (4, 3)
  */
-package a2;
+package ManojN;
 public class Q7_sum_equal_to_array {
 	static void m1(int a[],int sum){
 		int temp=0;

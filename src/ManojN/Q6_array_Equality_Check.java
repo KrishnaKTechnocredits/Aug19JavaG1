@@ -4,7 +4,7 @@ Hint: Input Arrays :
 First Array : [21, 57, 11, 37, 24] 
 Second Array : [21, 57, 11, 37, 23] Two Arrays Are Equal
  */
-package a2;
+package ManojN;
 
 public class Q6_array_Equality_Check {
 	static int count = 0;

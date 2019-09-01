@@ -5,7 +5,7 @@ arr2: {10,2,18,14,13}
 o/p :- Values are not matching at index -> 2
 Values are not matching at index -> 4
  */
-package a2;
+package ManojN;
 public class Q9_AllDifferIndexOfArray {
 	public static void main(String[] args) {
 		int arr1[]= {10,2,9,14,3};

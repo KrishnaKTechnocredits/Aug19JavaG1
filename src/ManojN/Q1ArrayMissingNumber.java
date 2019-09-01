@@ -1,6 +1,6 @@
 //Q1) Find the missing number in integer array of 1 to 10?
 
-package a2;
+package ManojN;
 
 public class Q1ArrayMissingNumber {
 	void m1(int arr2 []){

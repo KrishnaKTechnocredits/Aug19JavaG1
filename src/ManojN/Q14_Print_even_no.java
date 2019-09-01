@@ -3,7 +3,7 @@
 int a = {15, 24, 52, 49, 62, 10};
 output :- {24, 52, 62, 10}
  */
-package a2;
+package ManojN;
 public class Q14_Print_even_no {
 	public static void main(String[] args) {
 		int a []= {15, 24, 52, 49, 62, 10};
