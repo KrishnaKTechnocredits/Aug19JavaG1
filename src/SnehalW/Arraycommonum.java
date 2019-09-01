@@ -1,7 +1,5 @@
 package SnehalW;
-
-import java.lang.reflect.Array;
-
+//12) WAP to print common number from two different array
 public class Arraycommonum {
 
 public static void main(String[] args) {

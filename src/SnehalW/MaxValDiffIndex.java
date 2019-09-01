@@ -1,4 +1,5 @@
 package SnehalW;
+//10) Find max value at differed index
 
 public class MaxValDiffIndex {
 	int array1[] = {10,2,9,14,3};

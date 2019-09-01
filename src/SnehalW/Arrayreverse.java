@@ -1,5 +1,5 @@
 package SnehalW;
-
+//13) WAP to reveres array
 public class Arrayreverse {
 
 	public static void main(String[] args) {

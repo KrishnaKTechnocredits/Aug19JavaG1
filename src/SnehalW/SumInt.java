@@ -1,4 +1,5 @@
 package SnehalW;
+//1) Write a program to print the sum of two integers.
 class SumInt
 {
 	int sum=0,a,b;

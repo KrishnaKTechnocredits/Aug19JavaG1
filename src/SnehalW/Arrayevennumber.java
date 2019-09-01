@@ -1,5 +1,5 @@
 package SnehalW;
-
+//14) WAP to print even number from the array
 public class Arrayevennumber {
 
 	public static void main(String[] args) {

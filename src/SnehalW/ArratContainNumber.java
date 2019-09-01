@@ -1,5 +1,5 @@
 package SnehalW;
-
+//3) Check if array contains a number in Java?
 public class ArratContainNumber
 {
 

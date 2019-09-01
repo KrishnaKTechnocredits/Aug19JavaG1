@@ -1,5 +1,5 @@
 package SnehalW;
-
+//2) Find duplicate number on Integer array in Java?
 public class DuplicateNumArray
 {
 	int []arr1= {0, 3, 1, 2, 3};

@@ -1,5 +1,5 @@
 package SnehalW;
-
+//7) Find all pairs on integer array whose sum is equal to given number?
 public class ArraySum7 
 {
 		int array1[] = {2, 4, 3, 5, 7, 8, 9};

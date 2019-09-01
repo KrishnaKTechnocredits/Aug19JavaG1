@@ -1,5 +1,5 @@
 package SnehalW;
-
+//8) Find first differ index from given arrays
 public class DifferentIndex
 {
 	int array1[] = {10,2,9,14,3};

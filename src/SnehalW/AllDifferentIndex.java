@@ -1,5 +1,5 @@
 package SnehalW;
-
+//9) Find all differ index from given arrays
 public class AllDifferentIndex {
 
 	int array1[] = {10,2,9,14,3};

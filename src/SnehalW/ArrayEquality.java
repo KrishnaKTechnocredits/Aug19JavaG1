@@ -1,5 +1,5 @@
 package SnehalW;
-
+//6)Write a java program to check the equality of two arrays?
 public class ArrayEquality 
 {
 	int array1[] = {21, 57, 11, 37, 24};
