@@ -1,4 +1,5 @@
 package SnehalW;
+//7) You are given two numbers N and M, print the absolute difference between two numbers i.e. |N−M|
 class AbsoluteDiff
 {
 	int n,m,diff=0,absdiff;

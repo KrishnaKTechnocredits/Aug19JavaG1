@@ -1,4 +1,5 @@
 package SnehalW;
+//2) Write a program to print the sum of all the elements of an array of size 4.
 class SumArray
 {
 	int num[]={1,2,3,4};

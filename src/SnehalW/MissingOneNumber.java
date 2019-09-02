@@ -1,5 +1,5 @@
 package SnehalW;
-
+//1) Find the missing number in integer array of 1 to 10?
 public class MissingOneNumber 
 {
 	int i,j,sum=0,result;
