@@ -1,26 +1,26 @@
-//WAP to find sum of user given number
+//WAP to reveres user given number
 package AtulS;
 
 import java.util.Scanner;
 
-public class SumofNumber {
+public class ReverseNumber {
 
-	int sum(int num) {
+	String reverse(int num) {
 		int temp = 0;
-		int sum = 0;
+		String revnum = "";
 		while (num > 0) {
 			temp = num % 10;
-			sum += temp;
+			revnum = revnum + temp;
 			num = num / 10;
 		}
-		return sum;
+		return revnum;
 	}
 
 	public static void main(String[] args) {
-		SumofNumber sm = new SumofNumber();
+		ReverseNumber rn = new ReverseNumber();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter number");
-		System.out.println(sm.sum(sc.nextInt()));
+		System.out.println(rn.reverse(sc.nextInt()));
 		sc.close();
 
 	}
