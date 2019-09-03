@@ -1,3 +1,4 @@
+package RahulH;
 class Assignment1_6
 {
 	int numArrayA[] = {3,9,8};

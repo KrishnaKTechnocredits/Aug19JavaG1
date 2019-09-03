@@ -1,3 +1,4 @@
+package RahulH;
 class Assignment1_2
 {
 	int a[] = {14,15,100,89};
