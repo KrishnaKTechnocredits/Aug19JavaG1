@@ -1,8 +1,9 @@
 /* Hello Reviewer (Maulik/Krishna/Harsh),
  * I am unable to think on this program logic. Whereas I am able to print unique numbers.
+ * Please help me with the code
  */
 
-package assignment_2;
+package RahulH;
 
 public class Q11 {
 

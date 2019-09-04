@@ -1,4 +1,4 @@
-package assignment_2;
+package RahulH;
 
 public class Q10 {
 	
