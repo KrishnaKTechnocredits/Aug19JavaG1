@@ -1,3 +1,5 @@
+package DimpleB;
+
 /*8)	WAP to find vowels in given string 
 a.	Input :- automation engineering
 b.	Count :- 11
