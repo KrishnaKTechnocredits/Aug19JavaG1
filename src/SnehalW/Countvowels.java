@@ -1,4 +1,5 @@
 package SnehalW;
+//8) You are given a string S, which comprises English alphabets, determine the count of all the vowels in S. Vowels are [a,e,i,o,u]. Print the count of all the vowels that are available in the string S.
 class Countvowels
 {
 	String str = "hello aeiou";
@@ -19,4 +20,4 @@ class Countvowels
 	Countvowels countvowels = new Countvowels();
 	countvowels.countv();
 	}
-}
+} 
