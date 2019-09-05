@@ -11,8 +11,8 @@ public class Program3 {
 
 		void freq(String str, char c)
 		{
-			String s[]=str.split("e");
-			if(str.charAt(str.length()-1)=='e')
+			String s[]=str.split(String.valueOf(c));
+			if(str.charAt(str.length()-1)==c)
 			{
 				System.out.println("char value:"+c);
 				System.out.println("char count:"+s.length);
