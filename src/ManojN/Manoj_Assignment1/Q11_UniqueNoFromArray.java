@@ -4,7 +4,7 @@ a. int array1 = {1, 3, 6, 9, 7},
 b. int array2 = {2, 5, 6, 9, 8}
 output Array :- {1, 3, 6, 9, 7, 2, 5, 8}
  */
-package ManojN;
+package ManojN.Manoj_Assignment1;
 
 public class Q11_UniqueNoFromArray {
 	static int count1 = 0;
