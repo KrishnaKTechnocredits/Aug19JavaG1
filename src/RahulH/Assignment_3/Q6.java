@@ -3,7 +3,7 @@
  *  2. Unable to "all the best" as str[0]
  */
 
-package assignment_4;
+package RahulH.Assignment_3;
 
 import java.util.Scanner;
 

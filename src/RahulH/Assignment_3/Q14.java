@@ -1,4 +1,4 @@
-package assignment_4;
+package RahulH.Assignment_3;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class Q14 {
 	
 	void unique(int c[])
 	{
-		for (int i)
+		
 	}
 	
 	public static void main(String[] args) {

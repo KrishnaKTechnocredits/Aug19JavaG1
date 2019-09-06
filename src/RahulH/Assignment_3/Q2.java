@@ -2,7 +2,7 @@
  * When entered 1st string as "all the best", 2nd, 3rd string occupies string values as "the" and "best"
  */
 
-package assignment_4;
+package RahulH.Assignment_3;
 
 import java.util.Scanner;
 
