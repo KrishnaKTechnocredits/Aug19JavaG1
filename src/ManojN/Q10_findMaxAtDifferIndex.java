@@ -7,7 +7,7 @@ From (9,18) max value is 18
  */
 
 package ManojN;
-public class Q10_findMaxAtDifferIndex {
+class Q10_findMaxAtDifferIndex {
 	public static void main(String[] args) {
 		int arr1[]= {10,2,18,14,3};
 		int arr2[]= {10,2,9,14,13};
