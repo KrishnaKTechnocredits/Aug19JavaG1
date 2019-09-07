@@ -1,6 +1,6 @@
 /*Find all the pairs in an integer array whose sum is equal to given number using scanner class*/
 
-package loopExamples;
+package DimpleB;
 import java.util.Scanner;
 
 public class ScannerArrayProblem7 {

@@ -1,6 +1,6 @@
 
 /*Check equality of two arrays using scanner class*/
-package loopExamples;
+package DimpleB;
 
 import java.util.Scanner;
 

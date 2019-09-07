@@ -2,7 +2,7 @@
 a.	Input:- 159753
 b.	Sum of given number:- 30
 */
-
+package DimpleB;
 import java.util.Scanner;
 
 public class StringArrayProblem4 {

@@ -8,6 +8,7 @@ b.	negative number = {-9, -25, -14}
 c.	positive number sum :- 38
 d.	negative number sum :- 48
 */
+package DimpleB;
 
 import java.util.Scanner;
 

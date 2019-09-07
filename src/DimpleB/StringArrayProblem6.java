@@ -3,7 +3,7 @@ a.	Input array:- {“all the best”, “technocredits”, “”, “maharashtra”}
 b.	Output Max length string :- Technocredits
 c.	Max length string reverse value :- stiderconhcet
 */
-
+package DimpleB;
 public class StringArrayProblem6 {
 	
 	void reversemaxlenstring()

@@ -4,6 +4,7 @@ i.e. actual number :- 12321
 reverse  of actual number :- 12321
 */
 
+package DimpleB;
 import java.util.Scanner;
 
 public class StringArrayProblem11 {
