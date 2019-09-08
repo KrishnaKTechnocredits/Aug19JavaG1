@@ -1,45 +1,61 @@
+
+/*
+ * Hello reviewer
+ * I am unable to send parameterized array. But I was successful to create two arrays using Scanner class.  
+ */
+
+
 package RahulH;
+
+import java.util.Scanner;
 
 public class Q10 {
 	
-	int cnt = 0;
+	int sumA =0;
+	int sumB =0;
+	int total;
 	
-	void maxValue(int a[], int b[])
+	void addTwoArray(int[] a, int[] b)
+	
 	{
-		if (a.length == b.length)
+		for (int i=0; i<a.length; i++)
 		{
-			for (int i=0; i<a.length; i++)
-			{
-				if (a[i]!=b[i])
-				{
-					cnt = 1;
-					System.out.println("Miss match at index " + i + " and the numbers are " + a[i] + " and " + b[i]);
-					if (a[i]<b[i])
-					{
-						System.out.println("The greater number is: " +b[i]);
-					}
-					else
-					{
-						System.out.println("The greater number is: "+a[i]);
-					}
-				}
-			}
-			if (cnt == 0)
-			{
-				System.out.println("Arrays match so no greater number");
-			}
-		}else
-		{
-			System.out.println("Array length do not match");
+			sumA = sumA + a[i];
 		}
+		System.out.println("Array A sum: " +sumA);
+		
+		for (int i=0; i<b.length; i++)
+		{
+			sumB = sumB + b[i];
+		}
+		System.out.println("Array B sum: " +sumB);
+		System.out.println("Addition on Array A and B is " + (sumA+sumB));
 	}
 	
 	public static void main(String[] args) {
 		
-		int a[] = {10,2,9,14,3};
-		int b[] = {10,2,18,14,3};
+		/*
+		Scanner sc = new Scanner(System.in);
 		
-		new Q10().maxValue(a, b);
+		for (int i=0; i<2; i++)
+		{
+			System.out.println("Please enter the array size for array" + (i+1) + ":");
+			int size = sc.nextInt();
+			System.out.println("size entered for array is: " + size);
+			int num[] = new int[size];
+			
+			for (int j=0; j<num.length; j++)
+			{
+				System.out.println("Please enter value for " + (j+1) +":");
+				num[j] = sc.nextInt();
+			}
+		}
+		*/
+		
+		int a[] = {1, 5, 9, 3, 7};
+		int b[] = {1, 7, 9, 3};
+		new Q10().addTwoArray(a, b);
+		
 	}
 
 }
