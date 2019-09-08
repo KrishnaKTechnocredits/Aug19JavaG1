@@ -5,6 +5,20 @@ import java.util.*;
 
 public class FindCharFreq {
 
+	int findcharnew(String name,char ch)
+	{
+		int lastINdex = name.lastIndexOf(ch);
+		int length = name.length();
+		int charCnt = 0;
+		String stringChar = ch + "" + ch;
+		if ((length - 1) == lastINdex) {
+			if (name.endsWith(stringChar)) {
+				charCnt = name.split(ch + "").length + 1;
+			}
+		}
+		return charCnt;
+	}
+	
 	int findchar(String str, char ch) { // Query in this function:not working
 										// for string elee
 		int cnt = 0;
@@ -26,7 +40,7 @@ public class FindCharFreq {
 		System.out.println("Enter char which you want to find:");
 		ch = sc.next().charAt(0);
 		sc.close();
-		System.out.println(fc.findchar(str, ch));
+		System.out.println(fc.findcharnew(str, ch));
 	}
 
 }

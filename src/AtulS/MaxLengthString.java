@@ -18,7 +18,7 @@ public class MaxLengthString {
 	}
 
 	public static void main(String[] args) {
-		int arrcnt;
+		int arrcnt=0;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter no of elements: ");
 		arrcnt = sc.nextInt();
