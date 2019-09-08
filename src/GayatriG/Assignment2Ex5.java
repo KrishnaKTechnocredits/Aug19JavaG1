@@ -20,11 +20,7 @@ public class Assignment2Ex5 {
 	}
 
 	public static void main(String[] args) {
-
-		int[] arr = { 101, 2, 6, 98, 34, 66, 79, 4, 100 };
-
-		//int[] arr1 = { 2, 6, 98, 34, 66, 79, 4 };
-
+		int[] arr = { 2, 6, 98, 34, 66, 79, 4 };
 		Assignment2Ex5 assignment2ex5 = new Assignment2Ex5();
 		assignment2ex5.secondLargestNum(arr);
 	}

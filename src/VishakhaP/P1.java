@@ -1,4 +1,4 @@
-package GayatriG;
+package VishakhaP;
 
 public class P1 {
 
@@ -12,6 +12,3 @@ public class P1 {
 		}
 	}
 }
-
-
-

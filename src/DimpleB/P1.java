@@ -1,4 +1,4 @@
-package GayatriG;
+package DimpleB;
 
 public class P1 {
 
@@ -12,6 +12,3 @@ public class P1 {
 		}
 	}
 }
-
-
-
