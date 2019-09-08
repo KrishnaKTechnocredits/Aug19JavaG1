@@ -6,8 +6,8 @@ o/p :- Values are not matching at index -> 2
 From (9,18) max value is 18
  */
 
-package a2;
-public class Q10_findMaxAtDifferIndex {
+package ManojN;
+class Q10_findMaxAtDifferIndex {
 	public static void main(String[] args) {
 		int arr1[]= {10,2,18,14,3};
 		int arr2[]= {10,2,9,14,13};
