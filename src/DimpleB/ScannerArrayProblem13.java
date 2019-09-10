@@ -1,6 +1,6 @@
 /*Print reverse array using scanner class*/
 
-package loopExamples;
+package DimpleB;
 import java.util.Scanner;
 
 public class ScannerArrayProblem13 {

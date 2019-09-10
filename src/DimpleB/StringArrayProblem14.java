@@ -4,6 +4,7 @@ b.	secondArray:- {5,6,7,8,9,7}
 c.	unique array = {1,2,3,4,5,6,7,8,9}
 i.	order can be anything
 */
+package DimpleB;
 import java.util.Scanner;
 
 public class StringArrayProblem14 {

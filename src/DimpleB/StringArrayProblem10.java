@@ -2,7 +2,7 @@
 a.	firstArray :- {1, 5, 9, 3, 7}
 b.	secondAraay:- {1, 7,  9, 3}
 	*/
-
+package DimpleB;
 import java.util.Scanner;
 public class StringArrayProblem10 {
 
