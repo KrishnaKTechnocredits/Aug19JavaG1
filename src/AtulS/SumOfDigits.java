@@ -1,19 +1,19 @@
-//WAP to reverse number
+//Sum of Digits
 package AtulS;
 
 import java.util.Scanner;
 
-public class ReverseNumber {
+public class SumOfDigits {
 
-	void reverse(int num) {
-		int temp = num;
-		int rev = 0;
+	void sum(int num) {
+		int temp = 0;
+		int sum = 0;
 		while (num > 0) {
 			temp = num % 10;
-			rev = rev * 10 + temp;
+			sum += temp;
 			num = num / 10;
 		}
-		System.out.println("Reversed number is:" + rev);
+		System.out.println(sum);
 	}
 
 	void input() {
@@ -21,13 +21,13 @@ public class ReverseNumber {
 		System.out.println("Enter number:");
 		int num = sc.nextInt();
 		sc.close();
-		reverse(num);
+		sum(num);
 
 	}
 
 	public static void main(String[] args) {
-		ReverseNumber rev = new ReverseNumber();
-		rev.input();
+		SumOfDigits sd = new SumOfDigits();
+		sd.input();
 
 	}
 
