@@ -4,7 +4,7 @@ input: String array[] = {"xyz", "77", "101", "99", "abc”}
 output: (numeric) 77, 101, 99
 string:-xyz, abc
  */
-package assignment4;
+package DimpleB;
 public class Assignment4program12 {
 	void seperatenumericalpha(String inputnum[])
 	{

@@ -3,7 +3,7 @@
 Input:Hi Good Morning All
 Output:lla GNINROM doog IH
  */
-package assignment4;
+package DimpleB;
 import java.util.Scanner;
 
 public class Assignment4program14 {

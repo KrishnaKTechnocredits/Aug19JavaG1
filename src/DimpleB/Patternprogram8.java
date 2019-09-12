@@ -9,7 +9,7 @@
    * * 
     *
  */
-package patternassignmentprograms;
+package DimpleB;
 import java.util.Scanner;
 
 public class Patternprogram8 

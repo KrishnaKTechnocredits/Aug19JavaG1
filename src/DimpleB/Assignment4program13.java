@@ -3,7 +3,7 @@
 Input:this is techno credits
 Output:siht is onhcet credits
  */
-package assignment4;
+package DimpleB;
 import java.util.Scanner;
 
 public class Assignment4program13 {
