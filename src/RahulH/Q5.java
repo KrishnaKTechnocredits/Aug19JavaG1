@@ -1,32 +1,35 @@
 package RahulH;
 
+import java.util.Scanner;
+
 public class Q5 {
 	
-	int a[] = {23, 2, 45, 1, 9, 14, 5};
-	int max = a[0];
-	int secondmax = a[0];
+	int reverse;
+	int s = 0;
 	
-	void secondLargest()
+	void reverse(int number)
 	{
-		for (int i=0; i<a.length; i++)
+		int temp = number;
+		
+		while (temp > 0 )
 		{
-				if (max < a[i])
-				{
-					secondmax = max;
-					max = a[i];
-				}
-				else if (a[i] > secondmax)
-				{
-					secondmax = a[i];
-				}
+			reverse = temp%10;
+			temp = temp/10;
+			s = s*10+reverse;
 		}
-		System.out.println("Second maximum no. is: " +secondmax);
+		System.out.println("The reversed number is " +s);
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
-		new Q5().secondLargest();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the number: ");
+		int number = sc.nextInt();
+		System.out.println("The entered number is: " +number);
 		
+		new Q5().reverse(number);
+		sc.close();
 	}
 
 }

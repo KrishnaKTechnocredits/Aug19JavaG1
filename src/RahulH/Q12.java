@@ -1,31 +1,38 @@
 package RahulH;
 
+import java.util.Scanner;
+
 public class Q12 {
-	
-	int cnt = 0;
-	
-	void uniqueNos(int a[], int b[])
+	//static String str = "Rahul";
+	String reverse = "";
+
+	void palindrome(String str) 
 	{
-		for (int i = 0; i<a.length; i++)
+		for (int i = str.length() - 1; i >= 0; i--) 
 		{
-			if (a[i] == b[i])
-			{
-				cnt = 1;
-				System.out.print(a[i] + " ");
-			}
+			reverse = reverse + str.charAt(i);	
 		}
-		if (cnt == 0)
+		// System.out.println(reverse);
+		 
+		if (reverse.equals(str)) 
 		{
-			System.out.println("No duplicate nos.");
+			System.out.println(str + " is palinderome");
+		}
+		else 
+		{
+			System.out.println(str + " not palinderome");
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		
-		int a[] = {1, 3, 6, 9, 7};
-		int b[] = {2, 5, 6, 9, 8};
-		
-		new Q12().uniqueNos(a, b);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the name: ");
+		String s = sc.next();
+		System.out.println("The entered name is: " +s);
+
+		new Q12().palindrome(s);
+		sc.close();
 	}
 
 }

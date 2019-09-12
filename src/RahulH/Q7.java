@@ -1,25 +1,30 @@
 package RahulH;
 
+import java.util.Scanner;
+
 public class Q7 {
 	
-	int sum = 7;
-	
-	void m1(int a[])
+	void Factorial(int n)
 	{
-		for (int i=0; i<a.length; i++)
+		int a=1;
+		for (int i=1; i<=n; i++)
 		{
-			for (int j=0; j<a.length; j++)
-			{
-				if (a[i]+a[j]==sum)
-					System.out.println("("+ a[i] + "," +a[j]+")");
-			}
+			a=a*i;
 		}
+		System.out.println(n + " factorial is " + a);	
 	}
 	
 	public static void main(String[] args) {
 		
-		int a[] = {2, 4, 3, 5, 7, 8, 9};
-		new Q7().m1(a);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the value on N: ");
+		int n = sc.nextInt();
+		System.out.println("You entered: " +n);
+		
+		//int n = 5;
+		
+		new Q7().Factorial(n);
+		sc.close();
 	}
 
 }
