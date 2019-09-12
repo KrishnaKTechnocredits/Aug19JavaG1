@@ -1,55 +1,49 @@
 /* WAP to print output as below
  Please enter string:
 Input:Hi Good Morning All
-Output:llA GNINROM doog HI
+Output:lla GNINROM doog IH
  */
-
-package DimpleB;
-
+package assignment4;
 import java.util.Scanner;
 
 public class Assignment4program14 {
-
-	void reversalstring(String str)
+	void reverseevenindexstring(String str)
 	{
 		int i=0;
+		int j=0;
+		String rev="";
 		String str1="";
-		String st2="";
+		String str3="";
+		String str4="";
+		System.out.println("Expected output string is:");
 		for(i=str.length()-1;i>=0;i--)
 		{
-			str1=str1.concat(str.valueOf(str.charAt(i)));
+			str1=str1.concat(String.valueOf(str.charAt(i)));
 		}
 		String str2=str1;
-		for(i=str2.indexOf("l");i<=str2.lastIndexOf("A");i++)
+		String[] strarr=str2.split(" ");
+		for(i=0;i<strarr.length;i++)
 		{
-			System.out.print(str2.charAt(i));
-		}
-		System.out.print(" ");
-		for(i=str2.indexOf("g");i<=str2.lastIndexOf("M");i++)
-		{
-			st2=String.valueOf(str2.charAt(i));
-			System.out.print(st2.toUpperCase());
-		}
-		System.out.print(" ");
-		for(i=str1.indexOf("d");i<=str1.lastIndexOf("G");i++)
-		{
-			if(str1.charAt(i)=='G')
+			rev="";
+			if(i%2==0)
 			{
-				st2=String.valueOf(str1.charAt(i));
-				System.out.print(st2.toLowerCase());
+				for(j=0;j<strarr[i].length();j++)
+				{
+					rev=rev.concat(String.valueOf(strarr[i].charAt(j)));
+					str3=rev.toLowerCase();
+				}
+				System.out.print(str3+" ");
 			}
 			else
 			{
-				st2=String.valueOf(str1.charAt(i));
-				System.out.print(st2);
+				for(j=0;j<strarr[i].length();j++)
+				{
+					rev=rev.concat(String.valueOf(strarr[i].charAt(j)));
+					str4=rev.toUpperCase();
+				}
+				System.out.print(str4+" ");
 			}
 		}
-		System.out.print(" ");
-		String str3="";
-		String str4="";
-		str3=str3.concat(String.valueOf(str2.charAt(str2.lastIndexOf("i"))));
-		str4=str4.concat(String.valueOf(str2.charAt(str2.lastIndexOf("H"))));
-		System.out.print(str4.concat(str3).toUpperCase());
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -57,8 +51,7 @@ public class Assignment4program14 {
 		Scanner sc=new Scanner(System.in);
 		String strip=sc.nextLine();
 		Assignment4program14 p14=new Assignment4program14();
-		p14.reversalstring(strip);
+		p14.reverseevenindexstring(strip);
 		sc.close();
-	}
-
+		}
 }
