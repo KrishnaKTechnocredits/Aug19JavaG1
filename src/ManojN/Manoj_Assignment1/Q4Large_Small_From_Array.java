@@ -3,7 +3,7 @@
 Hint: For example, if input integer array is {2, 6, 3, 9, 11} and given sum is 9, output should be {6,3}.
  */
 
-package ManojN;
+package ManojN.Manoj_Assignment1;
 
 public class Q4Large_Small_From_Array {
 

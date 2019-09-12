@@ -1,6 +1,6 @@
 //Q2) Find duplicate number on Integer array in Java?
 
-package ManojN;
+package ManojN.Manoj_Assignment1;
 
 public class Q2arrayDuplicateNumber {
 
