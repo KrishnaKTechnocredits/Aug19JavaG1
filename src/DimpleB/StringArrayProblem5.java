@@ -2,7 +2,7 @@
 a.	Input number:- 456789
 b.	Output number :- 987654
 */
-
+package DimpleB;
 import java.util.Scanner;
 
 public class StringArrayProblem5 {

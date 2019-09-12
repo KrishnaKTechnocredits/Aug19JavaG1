@@ -1,7 +1,7 @@
 
 /* Find largest and smallest number from an unsorted array using scanner class*/
 
-package loopExamples;
+package DimpleB;
 import java.util.Scanner;
 
 public class ScannerArrayProblem4 {
