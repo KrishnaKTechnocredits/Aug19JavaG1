@@ -1,4 +1,4 @@
-package assignment_4_String;
+package RahulH.Assignmnt_4_String;
 
 public class Q12 {
 	
