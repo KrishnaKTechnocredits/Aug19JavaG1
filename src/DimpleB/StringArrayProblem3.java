@@ -3,7 +3,7 @@ a.	i.e. User String :- “electrical engineering”
 b.	char value :- e
 c.	count of e :- 5
 */
-
+package DimpleB;
 import java.util.Scanner;
 
 public class StringArrayProblem3 {

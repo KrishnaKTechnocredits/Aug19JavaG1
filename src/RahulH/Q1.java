@@ -1,36 +1,56 @@
 package RahulH;
 
+import java.util.Scanner;
+
 public class Q1 {
 	
-	int num[] = {1, 2, 3, 4, 5, 6, 7, 9, 10};
-	int sum1 = 0;
-	int sum2 = 55;
-	int missing;
-	int start = 1;
-	int end = 10;
-	int sum = 0;
+	//int a[] = {5, 6, -9, 14, -25, 6, 7, -14};
+	//int p[] = new int[a.length];
+	int positivesum = 0;
+	int negativesum = 0;
 	
-	void arraySum()
+	void positiveNegative(int num[])
 	{
-		for (int i=0; i<end; i++)
+		for (int i = 0; i<num.length; i++)
 		{
-			sum = 0+sum;
+			if (num[i]> 0)
+			{
+				System.out.print(num[i] + " ");
+				positivesum = positivesum + num[i];
+			}
 		}
-	}
-	
-	void missing()
-	{
+		System.out.println();
+		System.out.println("The postive sum is: " +positivesum);
+		
 		for (int i=0; i<num.length; i++)
 		{
-			sum1 = sum1 + num[i];
+			if (num[i]<0)
+			{
+				System.out.print(num[i] + " ");
+				negativesum = negativesum + num[i];
+			}
 		}
-		System.out.println("The sum is: " +sum1);
-		missing = sum2-sum1;
-		System.out.println("The missing number is: " +missing);
+		System.out.println();
+		System.out.println("The negative sum is: " +negativesum);
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{	
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Please enter the size: ");
+		int size = sc.nextInt();
+		System.out.println("Entered size is: " +size);
 		
-		new Q1().missing();
+		int num[] = new int[size];
+		
+		for(int i=0; i<num.length; i++)
+		{
+			System.out.println("Please enter " + (i+1) + " number");
+			num[i] = sc.nextInt();
+		}
+		
+		new Q1().positiveNegative(num);
+		sc.close();
 	}
+
 }

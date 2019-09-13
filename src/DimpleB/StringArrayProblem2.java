@@ -1,7 +1,7 @@
 /* 2)	WAP to find max length String from the given array.
 a.	Input array:- {“all the best”, “technocredits”, “”, “maharashtra”}
 */
-
+package DimpleB;
 public class StringArrayProblem2 {
 	
 	void maxlenstring()

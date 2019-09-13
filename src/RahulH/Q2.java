@@ -1,32 +1,48 @@
+/*
+ * When entered 1st string as "all the best", 2nd, 3rd string occupies string values as "the" and "best"
+ */
+
 package RahulH;
+
+import java.util.Scanner;
 
 public class Q2 {
 	
-	int dup[] = {0, 3, 1, 2, 3};
-	boolean flag = true;
+	int max =0;
+	int ch = 0;
 	
-
-	void duplicate()
-	{
-		for (int i=0; i<dup.length; i++)
+	void maxLenghtString(String str[])
+	{	
+		for (int i=0; i<str.length; i++)
 		{
-			for (int j=i+1; j<dup.length; j++)
+			ch = str[i].length();
+			System.out.println(str[i] + " ->" + " length " +ch);
+			if (ch > max)
 			{
-				if (dup[i] == dup[j])
-				{
-					flag = false;
-					System.out.println("The duplicate number is: " +dup[i]);
-				}
+				max = ch;
 			}
 		}
-		if (flag == true)
-		{
-			System.out.println("There is no duplicate number");
-		}
+		System.out.println("Max length is: " +max);
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{	
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the size: ");
+		int size = sc.nextInt();
+		System.out.println("Entered size is: " + size);
 		
-		new Q2().duplicate();	
+		String str[] = new String [size];
+		
+		for (int i=0; i<str.length; i++)
+		{
+			System.out.println("Plese enter the " + (i+1) + " string");
+			str[i] = sc.next();
+		}
+		
+		//String s[] = {"all the best", "technocredits", "", "maharashtra"};
+		new Q2().maxLenghtString(str);
+		sc.close();
+		
 	}
 }

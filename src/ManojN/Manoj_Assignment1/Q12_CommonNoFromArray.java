@@ -5,7 +5,7 @@ b. int array2 = {2, 5, 6, 9, 8}
 output Array :- {6, 9}
 */
 
-package ManojN;
+package ManojN.Manoj_Assignment1;
 
 public class Q12_CommonNoFromArray {
 	static int count = 0;
