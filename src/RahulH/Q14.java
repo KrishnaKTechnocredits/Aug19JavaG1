@@ -1,22 +1,29 @@
 package RahulH;
 
+import java.util.Scanner;
+
 public class Q14 {
 	
-	void even(int a[])
+	void unique(int c[])
 	{
-		for (int i = 0; i<a.length; i++)
-		{
-			if (a[i]%2 == 0)
-			{
-				System.out.print(a[i] + " ");
-			}
-		}
+		
 	}
 	
 	public static void main(String[] args) {
 		
-		int a [] = {15, 24, 52, 49, 62, 10};
-		new Q14().even(a);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the 1 array");
+		int size = sc.nextInt();
+		System.out.println("Please enter the array size 1");
+		
+		int c[] = new int[size];
+		
+		for (int i=0; i<c.length; i++)
+		{
+			System.out.println("Please enter the arry numer" + (i+1) + ":");
+		}
+		
+		new Q14().unique(c);
 	}
 
 }
