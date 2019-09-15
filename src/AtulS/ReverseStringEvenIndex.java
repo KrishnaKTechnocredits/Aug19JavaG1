@@ -17,15 +17,12 @@ public class ReverseStringEvenIndex {
 	void getword(String str) // get word after removing whitespace
 	{
 		String[] newStrArr = str.split(" ");
-		String[] printarr = new String[newStrArr.length];
 		for (int i = 0; i < newStrArr.length; i++) {
 			if (i % 2 == 0) {
-				printarr[i] = reverse(newStrArr[i]);
-			} else {
-				printarr[i] = newStrArr[i];
+				newStrArr[i] = reverse(newStrArr[i]);
 			}
 		}
-		display(printarr);
+		display(newStrArr);
 	}
 
 	void display(String[] str) // display reverse string

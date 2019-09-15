@@ -13,15 +13,12 @@ public class ReverseOddIndex {
 	void getword(String str) // get word after removing whitespace
 	{
 		String[] newStrArr = str.split(" ");
-		String[] printarr = new String[newStrArr.length];
 		for (int i = 0; i < newStrArr.length; i++) {
 			if (i % 2 == 0) {
-				printarr[i] = convertOdd(newStrArr[i]);
-			} else {
-				printarr[i] = newStrArr[i];
-			}
+				newStrArr[i] = convertOdd(newStrArr[i]);
+			} 
 		}
-		display(printarr);
+		display(newStrArr);
 	}
 
 	void display(String[] str) // display reverse string
