@@ -1,6 +1,6 @@
 /*find duplicate number in an integer array using scanner class*/
 
-package loopExamples;
+package DimpleB;
 import java.util.Scanner;
 
 public class ScannerArrayProblem2 {

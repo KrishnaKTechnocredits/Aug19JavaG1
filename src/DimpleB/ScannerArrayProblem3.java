@@ -1,6 +1,6 @@
 /*Check if an array contains given number using scanner class*/
 
-package loopExamples;
+package DimpleB;
 import java.util.Scanner;
 
 public class ScannerArrayProblem3 {

@@ -1,34 +1,33 @@
 package RahulH;
 
+import java.util.Scanner;
+
 public class Q4 {
 	
-	int a[] = {2, 6, 3, 9, 11};
-	int max = a[0];
-	int min = a[0];
+	int reverse = 0;
+	int sum = 0;
 	
-	void m1()
+	void sum(int number)
 	{
-		for (int i=0; i<a.length; i++)
+		int temp = number;
+		
+		while(temp > 0)
 		{
-			for (int j=i+1; j<a.length; j++)
-			{
-				if (max < a[j])
-				{
-					max = a[j];
-				}
-				if (min > a[j])
-				{
-					min = a[j];
-				}
-			}
+			reverse = temp%10;
+			temp = temp/10;
+			sum = sum + reverse;
 		}
-		System.out.println(max);
-		System.out.println(min);
+		System.out.println("The sum is: " +sum);
 	}
 	
-	public static void main(String[] args) 
-	{
-		new Q4().m1();
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Please enter the size of array: ");
+		int number = sc.nextInt();
+		System.out.println("Entered number is: " + number);	
+		
+		new Q4().sum(number);
+		sc.close();
 	}
-
 }

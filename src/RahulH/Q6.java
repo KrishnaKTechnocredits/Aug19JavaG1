@@ -1,35 +1,52 @@
+/*
+ *  1. Unable to find max string name, thus cannot reverse it.
+ *  2. Unable to "all the best" as str[0]
+ */
+
 package RahulH;
 
+import java.util.Scanner;
+
 public class Q6 {
-
-	int cnt = 0;
-
-	void equility(int a[], int b[]) 
+	
+	int max =0;
+	int ch = 0;
+	
+	void maxString(String str[])
 	{
-		if (a.length == b.length) 
+		for (int i=0; i<str.length; i++)
 		{
-			for (int i = 0; i < a.length; i++) 
+			ch = str[i].length();
+			if (ch > max)
 			{
-				if (a[i] != b[i]) 
-				{
-					cnt = 1;
-					System.out.println("Array not equal at index " + i);
-					break;
-				}
-			}if (cnt == 0) 
-			{
-				System.out.println("Arrays are equal");
+				max = ch;
 			}
-		} else 
+		}
+		System.out.println(max);
+		for (int i=str.length; i>=0; i--)
 		{
-			System.out.println("Length of both the array are not equal");
+			
 		}
 	}
-
+	
 	public static void main(String[] args) {
-		int a[] = { 21, 57, 11, 37, 24 };
-		int b[] = { 21, 57, 11, 37, 24 };
-		new Q6().equility(a, b);
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the string: ");
+		int size = sc.nextInt();
+		System.out.println("The entered string is: " +size);
+		
+		String str[] = new String[size];
+		
+		for (int i=0; i<str.length; i++)
+		{
+			System.out.println("Please enter " + (i+1) + " string");
+			str[i] = sc.next();
+		}
+		
+		//String str[] = {"all the best", "technocredits", "", "maharashtra"};
+		new Q6().maxString(str);
+		sc.close();
 	}
 
 }

@@ -3,6 +3,7 @@
 a.	Input array ={“krishna”, “maulik”, “aakash”, “harsh”, “aakansha”, ”abhishek”}
 b.	Output :- Krishna, aakansha, abhishek
 */
+package DimpleB;
 import java.util.Scanner;
 public class StringArrayProblem15 {
 	

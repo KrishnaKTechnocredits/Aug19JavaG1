@@ -1,6 +1,6 @@
 /*Find unique number from two different arrays using scanner class*/
 
-package loopExamples;
+package DimpleB;
 import java.util.Scanner;
 
 public class ScannerArrayProblem11 {
