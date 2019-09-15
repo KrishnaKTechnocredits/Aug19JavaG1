@@ -9,7 +9,7 @@ public class p4 {
 			{
 				System.out.print("* ");
 			}
-			    System.out.println("") ;  
+			    System.out.println("") ;
 		}
 	}
 
