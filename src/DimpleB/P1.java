@@ -9,6 +9,7 @@ public class P1 {
 				System.out.print("*");
 			}
 			System.out.println();
+			/*Comment*/
 		}
 	}
 }
