@@ -17,10 +17,5 @@ public class Patternprinting1 {
 			System.out.println();
 		}
 		
-		String str="snehal";
-		String newstr= str.substring(0, 3);
-		System.out.println(newstr);
-		
-		
 	}
 }
