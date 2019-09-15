@@ -1,38 +1,37 @@
 package RahulH;
 
+import java.util.Scanner;
+
 public class Q9 {
-
-	int cnt = 0;
-
-	void differIndexArrays(int a[], int b[]) 
+	
+	float sum;
+	
+	void average(int input[])
 	{
-		if (a.length == b.length) 
+		for (int i=0; i<input.length; i++)
 		{
-			for (int i = 0; i < a.length; i++) 
-			{
-				if (a[i] != b[i]) 
-				{
-					cnt = 1;
-					System.out.println("Values are not matching at index " + i);
-				}
-			}
-			if (cnt == 0) 
-			{
-				System.out.println("Arrays are same");
-			}
-		} else 
-		{
-			System.out.println("Lenght of arrays are not same");
+			sum = sum + input[i];
 		}
+		System.out.println("The average is: " +sum/input.length);
 	}
-
+	
 	public static void main(String[] args) 
 	{
-		int a[] = { 10, 6, 18, 14, 8};
-		int b[] = { 10, 2, 18, 14, 13 };
-
-		new Q9().differIndexArrays(a, b);
-
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the size of string: ");
+		int size = sc.nextInt();
+		System.out.println("Array size is: " +size);
+		
+		int input[] = new int[size];
+		
+		for (int i=0; i<input.length; i++)
+		{
+			System.out.println("Please enter " + (i+1) + " number");
+			input[i]=sc.nextInt();
+		}
+		
+		new Q9().average(input);
+		sc.close();
 	}
 
 }
