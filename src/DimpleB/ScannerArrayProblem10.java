@@ -1,6 +1,10 @@
 /*Find maximum value at differed index from an unsorted array using scanner class*/
 
+<<<<<<< HEAD
 package  DimpleB;
+=======
+package DimpleB;
+>>>>>>> master
 import java.util.Scanner;
 
 public class ScannerArrayProblem10 {
