@@ -1,4 +1,4 @@
-package verifyOutput;
+package RahulH.PatternMatching;
 
 public class Pattern7 {
 	
