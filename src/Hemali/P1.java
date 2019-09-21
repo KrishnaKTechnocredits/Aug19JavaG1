@@ -10,7 +10,7 @@ public class P1 {
 			for (int j = 1; j <= i; j++) {
 				System.out.print("*");
 			}
-	System.out.println();
+			System.out.println();
 		}
 
 		Scanner sc = new Scanner(System.in);
@@ -26,11 +26,6 @@ public class P1 {
 			System.out.println();
 		}
 
-	
 	}
-	
-	
-	
-	 
 
 }
