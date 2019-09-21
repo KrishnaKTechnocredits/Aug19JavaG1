@@ -5,7 +5,7 @@ i/p :- arr[] = {2,5,9,7,4,6}
 number :- 8
 o/p :- number is not in arr.
  */
-package ManojN;
+package ManojN.Manoj_Assignment1;
 public class Q3checkNumberInArray {
 	static void m1(int arr1[], int num){
 		//int arr[] = {2,5,9,7,4,6};

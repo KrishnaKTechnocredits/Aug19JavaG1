@@ -1,30 +1,33 @@
 package RahulH;
 
+import java.util.Scanner;
+
 public class Q3 {
 	
-	int nos[] = {2, 5 ,9 ,7, 4, 6};
-	int checkNumber = 8;
-	int cnt = 0;
-	
-	void check()
+	String input = "i";
+	void frequency(String str)
 	{
-		for (int i=0; i<nos.length; i++)
+		String msg[] = str.split(input);
+		if (str.indexOf(input) == str.length()-1)
 		{
-			if (nos[i] == checkNumber)
-			{
-				cnt = 1;
-				System.out.println("The number is present in the array");
-				break;
-			}
+			System.out.println(input + " frequency is " + msg.length);
 		}
-		if (cnt == 0)
+		else
 		{
-			System.out.println("The number is not present in the array");
+			System.out.println("count of " + input + " " + ((msg.length)-1));
 		}
 	}
-		
+	
 	public static void main(String[] args) 
 	{
-		new Q3().check();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the string: ");
+		String str = sc.nextLine();
+		System.out.println("The entered character is: " +str);
+		
+		//String str = "electrical engineering";
+		new Q3().frequency(str);
+		sc.close();
 	}
+
 }

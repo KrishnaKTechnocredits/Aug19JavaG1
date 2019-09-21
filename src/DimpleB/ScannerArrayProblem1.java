@@ -1,7 +1,7 @@
 
 /*find missing number in integer array of 1 to 10 using scanner class*/
 
-package loopExamples;
+package DimpleB;
 import java.util.Scanner;
 
 public class ScannerArrayProblem1 {

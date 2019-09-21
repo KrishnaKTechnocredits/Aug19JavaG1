@@ -8,6 +8,7 @@ public class A3_Q3_stringFrequency {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter any string :");
 		String str = sc.nextLine();
+		sc.close();
 		for (;;) {
 			System.out.println("Enter any character :");
 			char ch = sc.next().charAt(0);

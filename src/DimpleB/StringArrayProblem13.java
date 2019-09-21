@@ -5,7 +5,7 @@ b.	Int number = 234
 i.	Number is not Armstrong 
 Note :- Armstrong number means sum of each number cubes to number it self.
 */
-
+package DimpleB;
 import java.util.Scanner;
 
 public class StringArrayProblem13 {

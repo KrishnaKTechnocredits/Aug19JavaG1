@@ -1,7 +1,18 @@
 package ShreyaD;
 
+
 import java.util.Scanner;
 public class P10 {
+
+  public static void main(String[] args) {
+		
+		for(int i=1; i<=4; i++){
+			for(int j=1; j<=i; j++){
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+	}
 
 	
 			void pattern(int n)
@@ -40,15 +51,4 @@ public class P10 {
 					System.out.println();
 				}
 			}
-
-			public static void main(String[] args) {
-				P10 p10 = new P10();
-				Scanner sc = new Scanner(System.in);
-				System.out.println("enter the no of rows");
-				int n = sc.nextInt();
-				p10.pattern(n);
-				sc.close();
-
-			}
-
 }
