@@ -3,6 +3,7 @@
 a.	Input number :- 5
 b.	Output :- 120
 */
+
 package DimpleB;
 import java.util.Scanner;
 
