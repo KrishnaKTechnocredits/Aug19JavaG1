@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ReverseNumber {
 
-	String reverse(int num) {
+String reverse(int num) {
 		int temp = 0;
 		String revnum = "";
 		while (num > 0) {
@@ -16,13 +16,21 @@ public class ReverseNumber {
 		return revnum;
 	}
 
+	void input() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter number:");
+		int num = sc.nextInt();
+		sc.close();
+		reverse(num);
+
+	}
+
+
 	public static void main(String[] args) {
 		ReverseNumber rn = new ReverseNumber();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter number");
 		System.out.println(rn.reverse(sc.nextInt()));
 		sc.close();
-
 	}
-
 }
