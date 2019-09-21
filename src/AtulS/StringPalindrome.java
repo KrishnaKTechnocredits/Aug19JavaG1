@@ -1,10 +1,30 @@
-//WAP to find given string is palindrome or not
+//find to string is palindrome or not
+
 package AtulS;
 
 import java.util.Scanner;
 
-public class StringPalindrome { // check if string is palindrome or not
+public class StringPalindrome {
 
+	void checkpalindrome(String str) {
+		String rev = "";
+		for (int i = 0; i < str.length(); i++) {
+			rev = str.charAt(i) + rev;
+		}
+		if (str.equals(rev))
+			System.out.println("Given name " + str + " is palindrome");
+		else
+			System.out.println("Given name " + str + " is not palindrome");
+	}
+
+	public static void main(String[] args) {
+		StringPalindrome str = new StringPalindrome();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter string to check:");
+		str.checkpalindrome(sc.next());
+		sc.close();
+  }
+  
 	boolean palindrome(String str) {
 		char[] chArr = str.toCharArray();
 		boolean flag = false;
@@ -26,11 +46,4 @@ public class StringPalindrome { // check if string is palindrome or not
 			System.out.println("Given string is not palindrom");
 		sc.close();
 	}
-
-	public static void main(String[] args) {
-		StringPalindrome obj = new StringPalindrome();
-		obj.input();
-
-	}
-
 }

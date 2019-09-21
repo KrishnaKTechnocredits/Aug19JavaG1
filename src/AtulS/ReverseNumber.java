@@ -1,19 +1,19 @@
-//WAP to reverse number
+//WAP to reveres user given number
 package AtulS;
 
 import java.util.Scanner;
 
 public class ReverseNumber {
 
-	void reverse(int num) {
-		int temp = num;
-		int rev = 0;
+String reverse(int num) {
+		int temp = 0;
+		String revnum = "";
 		while (num > 0) {
 			temp = num % 10;
-			rev = rev * 10 + temp;
+			revnum = revnum + temp;
 			num = num / 10;
 		}
-		System.out.println("Reversed number is:" + rev);
+		return revnum;
 	}
 
 	void input() {
@@ -25,10 +25,12 @@ public class ReverseNumber {
 
 	}
 
+
 	public static void main(String[] args) {
-		ReverseNumber rev = new ReverseNumber();
-		rev.input();
-
+		ReverseNumber rn = new ReverseNumber();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter number");
+		System.out.println(rn.reverse(sc.nextInt()));
+		sc.close();
 	}
-
 }
