@@ -5,7 +5,7 @@ a. “Nalanda” meeting room will be booked with default bookMeetingRoom() method f
 b. Write another method which helps to book Other then “Nalanda” meeting room by giving name of meeting room and hrs as parameter.
 c. displayInfo method should print booked meeting room info [i.e. meeting room, booked for how many hrs].
  */
-package overloadingconceptassignment;
+package DimpleB;
 
 public class MeetingRoom {
 
