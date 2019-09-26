@@ -9,10 +9,13 @@ public class A5_P5 {
 	void input()
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("enter the weekday:");
+		System.out.println("enter the day:");
 		 x= sc.nextInt();
-	
-		sc.close();
+		 if(x>7)
+		 {
+			 x=x%7+1;
+		 }
+		 sc.close();
 	}
 	
 	String calender(int x) {
