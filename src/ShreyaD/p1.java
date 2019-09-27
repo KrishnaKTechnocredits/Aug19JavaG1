@@ -2,7 +2,7 @@ package ShreyaD;
 
 import java.util.Scanner;
 
-public class P1 {
+public class p1 {
 
 	void pattern(int n)
 	{
@@ -23,7 +23,7 @@ public class P1 {
 		 Scanner sc = new Scanner(System.in);
 			System.out.println("please enter the no");
 			int n = sc.nextInt();
-			P1 p = new P1();
+			p1 p = new p1();
 			p.pattern(n);
 			sc.close();
 }
