@@ -1,6 +1,6 @@
 /*Print even number from an array using scanner class*/
 
-package loopExamples;
+package DimpleB;
 import java.util.Scanner;
 
 public class ScannerArrayProblem14 {

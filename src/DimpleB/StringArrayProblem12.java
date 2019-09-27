@@ -4,7 +4,7 @@ i.	Naman is palindrome
 b.	String name = “harsh”
 i.	Harsh is not palindrome
 */
-
+package DimpleB;
 import java.util.Scanner;
 
 public class StringArrayProblem12 {
