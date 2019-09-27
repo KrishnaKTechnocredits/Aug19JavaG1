@@ -1,4 +1,4 @@
-package coreJavaAssignment3;
+package RahulH.CoreJavaAssignment3.JavaDecisionMakingAndSwitchcase;
 
 import java.util.Scanner;
 
