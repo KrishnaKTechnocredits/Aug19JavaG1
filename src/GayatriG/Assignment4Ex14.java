@@ -1,4 +1,4 @@
-package assignment4;
+package GayatriG;
 
 public class Assignment4Ex14 {
 	static void stringReverse(String input){

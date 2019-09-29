@@ -2,7 +2,7 @@
 Example:- 
 Hint :-  1) Int num1 = 0, int num2 = 1  input :- 7  output: - 0 1 1 2 3 5 8  
 */
-package assignment4;
+package GayatriG;
 
 public class Assignment4Ex3 {
 	static void fibonacciSeries(int x ){

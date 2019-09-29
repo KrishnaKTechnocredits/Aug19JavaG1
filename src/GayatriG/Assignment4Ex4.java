@@ -1,6 +1,6 @@
 //WAP to revers number (Consider Input as Integer not as String). 
 // input:- 12345  output:- 54321   
-package assignment4;
+package GayatriG;
 
 public class Assignment4Ex4 {
 	static void reverseNumber(int num){

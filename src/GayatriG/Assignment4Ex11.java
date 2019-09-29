@@ -1,6 +1,6 @@
 //WAP to find given string is palidrome or not 
 
-package assignment4;
+package GayatriG;
 
 public class Assignment4Ex11 {
 	static void palindrome(String input) {

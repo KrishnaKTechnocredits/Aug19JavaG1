@@ -1,6 +1,6 @@
 //reverse the string on even index
 
-package assignment4;
+package GayatriG;
 
 public class Assignment4Ex13 {
 	static void stringReverse(String input){

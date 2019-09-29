@@ -1,6 +1,6 @@
 //WAP to separate numeric and string value from the array 
 
-package assignment4;
+package GayatriG;
 
 public class Assignment4Ex12 {
 	static void seperateNumericString(String[] input){

@@ -1,6 +1,6 @@
 //14)	WAP to find unique number from given array store that numbers in new array. 
 
-package assignment3;
+package GayatriG;
 
 public class Assignment3Ex14 {
 	static void uniqueNo(int[] input1, int[] input2) {

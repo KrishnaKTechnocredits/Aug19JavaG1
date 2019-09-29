@@ -2,7 +2,7 @@
 //Example:-  input = “there is an apple”  
 //output = “elppanasiereht” 
 
-package assignment4;
+package GayatriG;
 
 public class Assignment4Ex2 {
 	void reverseString(String str){

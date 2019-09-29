@@ -1,6 +1,6 @@
 //separate digits and characters from the user define string. 
 
-package assignment4;
+package GayatriG;
 
 public class Assignment4Ex8 {
 	static void digitcharseperation(String input){

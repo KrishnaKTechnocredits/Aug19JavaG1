@@ -1,6 +1,6 @@
 //WAP to character occurring in user defined String and Character 
 
-package assignment4;
+package GayatriG;
 
 public class Assignment4Ex10 {
 	static void charOccurence(String str, char ch){
