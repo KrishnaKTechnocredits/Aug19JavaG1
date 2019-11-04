@@ -1,6 +1,6 @@
 //WAP to print factorial number 
 
-package assignment4;
+package GayatriG;
 
 public class Assignment4Ex6 {
 	static int factorial(int num){

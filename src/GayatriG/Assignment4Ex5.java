@@ -1,6 +1,6 @@
 // WAP to check if a number is Armstrong or not 
 
-package assignment4;
+package GayatriG;
 
 public class Assignment4Ex5 {
 	static void noArmstrong(int input){

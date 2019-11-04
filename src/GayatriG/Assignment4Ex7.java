@@ -1,6 +1,6 @@
 //WAP to print sum of digit(Consider Input as Integer not as String) 
 
-package assignment4;
+package GayatriG;
 
 public class Assignment4Ex7 {
 	static void sunOfDigit(int input){

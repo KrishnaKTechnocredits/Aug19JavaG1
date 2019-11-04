@@ -1,6 +1,6 @@
 // WAP to revers the word
 
-package assignment4;
+package GayatriG;
 
 public class Assignment4Ex9 {
 	static void stringReverse(String input){
